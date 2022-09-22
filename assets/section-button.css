@@ -1,3 +1,4 @@
-.section-button {
-    text-align:center
+.section-button-container {
+    position: relative;
+    left: 50%;
 }
