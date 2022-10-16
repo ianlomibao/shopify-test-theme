@@ -3,21 +3,31 @@
 <button class="section-button" type="button">Sample text</button>
 
 {% schema %}
-{
+  {
     "name": "Button",
     "settings": [
-        {
-            "id": "show_button",
-            "type": "checkbox",
-            "label": "Show button",
-            "default": true
-        }
+      {
+        "id": "show_button",
+        "type": "checkbox",
+        "label": "Show button",
+        "default": true
+      }, {
+        "id": "button_alignment",
+        "type": "radio",
+        "options": [
+          {
+            "value": "left",
+            "label":
+          }, {}
+
+        ]
+      }
     ],
     "presets": [
-        {
-            "name": "Button",
-            "category": "Button"
-        }
+      {
+        "name": "Button",
+        "category": "Button"
+      }
     ]
-}
-{% endschema %}
+  }
+{% endschema %}}
